@@ -70,9 +70,10 @@ export default {
         return;
       }
       this.loading = true;
-      await this.sleep(1);
       if (!this.image) {
         await this.loadCanvasAndImage();
+      } else {
+        await this.sleep(10);
       }
 
       const newImage = this.myCanvasContext.getImageData(0, 0, this.image.width, this.image.height);
