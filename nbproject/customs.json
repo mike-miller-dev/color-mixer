@@ -1,0 +1,17 @@
+{
+    "elements": {
+        "v-btn": {
+            "attributes": {
+                "click": {}
+            }
+        }
+    },
+    "attributes": {
+        "v-if": {
+            "context": "div"
+        },
+        "v-else": {
+            "context": "div"
+        }
+    }
+}
